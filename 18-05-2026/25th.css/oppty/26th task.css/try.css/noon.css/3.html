@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Website</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial;
+        }
+
+        body{
+            background:#00d9c0;
+            padding:40px;
+        }
+
+        .container{
+            background:white;
+            padding:30px;
+            border-radius:10px;
+        }
+
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        ul{
+            display:flex;
+            list-style:none;
+            gap:25px;
+        }
+
+        button{
+            padding:10px 20px;
+            border:none;
+            border-radius:20px;
+            background:orange;
+            color:white;
+        }
+
+        .main{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            margin-top:50px;
+        }
+
+        .text{
+            width:40%;
+        }
+
+        .text h1{
+            margin-bottom:20px;
+        }
+
+        .text p{
+            margin-bottom:20px;
+        }
+
+        .image img{
+            width:350px;
+            border-radius:50%;
+        }
+
+        .foods{
+            display:flex;
+            gap:20px;
+            margin-top:50px;
+        }
+
+        .card{
+            width:200px;
+        }
+
+        .card img{
+            width:100%;
+            border-radius:10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <nav>
+        <h2>Food</h2>
+
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Menu</li>
+            <li>Contact</li>
+        </ul>
+
+        <button>Login</button>
+    </nav>
+
+    <div class="main">
+
+        <div class="text">
+            <h1>Discover Delicious Food</h1>
+
+            <p>
+                Tasty foods available for breakfast,
+                lunch and dinner.
+            </p>
+          
+            <button>Order Now</button>
+        </div>
+       
+    </div>
+        <div class="image">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=800" alt="">
+        </div>
+
+    </div>
+
+    <div class="foods">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=500">
+            <h3>Burger</h3>
+            <p>$20</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=500">
+            <h3>Chicken</h3>
+            <p>$25</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=500">
+            <h3>Salad</h3>
+            <p>$15</p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
