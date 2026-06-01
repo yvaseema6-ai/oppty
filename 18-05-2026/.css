@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box{
+    width:200px;
+    border:2px solid black;
+
+    margin:20px;   /* Space outside the box */
+    padding:20px;  /* Space inside the box */
+
+    background-color:lightblue;
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+    Hello World
+</div>
+
+</body>
+</html>
+

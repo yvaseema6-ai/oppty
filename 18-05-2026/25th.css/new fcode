@@ -1,0 +1,60 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place an Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Place an Order</h1>
+
+        <div class="form-box">
+
+            <h2>Billing Address</h2>
+
+            <form>
+
+                <div class="input-box">
+                    <label>First name</label>
+                    <input type="text">
+                </div>
+
+                <div class="input-box">
+                    <label>Last name</label>
+                    <input type="text">
+                </div>
+
+                <div class="input-box">
+                    <label>Street Address</label>
+                    <input type="text">
+                </div>
+
+                <div class="input-box">
+                    <label>City</label>
+                    <input type="text">
+                </div>
+
+                <div class="input-box">
+                    <label>State</label>
+
+                    <select>
+                        <option>AL</option>
+                        <option>AP</option>
+                        <option>TS</option>
+                        <option>TN</option>
+                    </select>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
