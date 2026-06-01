@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        /* display: flex; */
+        background-color: #f0f0f0;
+        /* justify-content: center; */
+        margin: 150px;
+        
+        
+    }
+    .card{
+        background-color: aquamarine;
+        /* display: flex; */
+        /* text-align: end; */
+        border-radius: 10px;
+        width: 800px;
+        background-color: lightgray;
+
+
+    }
+    .head{
+        /* display: flex; */
+        text-align: center;
+        background-color: rgb(144, 238, 144);
+        padding: 20px;
+        width:758px;
+        border-radius: 7% 7% 0% 0%;
+    }
+    .photo{
+        border: 3px solid black;
+    }
+    .info{
+       margin-right: 58px;
+       
+
+    }
+    .vasu{
+        height:75px;
+        width:75px;
+
+    }
+    
+    
+    .s{
+        display:flex;
+    }
+    .Main{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .s img{
+        height: 150px;
+        width: 150px;
+    }
+
+</style>
+<body>
+    <div class="card">
+        <div class="head">
+
+        <img class="vasu" src="data:image/jpeg;base64,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" alt="">
+            <h3>OPPTY TECH</h3>
+        </div>
+           
+          <div class="Main">
+            <div class ="s" ><img class="photo"
+            src="https://c8.alamy.com/comp/2C7AYPC/illustration-of-a-girl-wearing-hijab-and-business-attire-using-laptop-2C7AYPC.jpg"width="100px";height="100px">
+            </div>
+
+            <div class="info">
+                <p>ID : 306</p>
+                <p>Name : Y.Vaseema</p>
+                <p>class : Team F</p>
+                <p>D.OB : April 6th</p>
+                <p>Address :  Hyderabad</p>
+                <p>Ph no: 9030209122</p>
+            </div>
+        </div>
+
+
+ </div>
+    
+</body>
+</html>
