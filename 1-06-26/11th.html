@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+   
+style>
+        *{
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background-color: pink;
+        }
+
+        nav{
+            background:#0d1028;
+            color:white;
+            display:flex;
+            justify-content:space-between;
+            padding:20px 50px;
+        }
+
+        nav ul{
+            display:flex;
+            list-style:none;
+        }
+
+        nav ul li {
+            margin-left:20px;
+        }
+
+        nav ul li a{
+            color:white;
+            text-decoration:none;
+        }
+
+        .hero{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            gap:50px;
+            padding:50px;
+            background-color: aqua;
+        }
+
+        .hero img{
+            width:180px;
+            height:180px;
+            border-radius:50%;
+        }
+
+        .btn{
+            background:blue;
+            color:white;
+            padding:10px 20px;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        .section{
+            text-align:center;
+            padding:40px;
+        }
+
+        .skills{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            
+           
+        } 
+
+        .skill{
+            background:white;
+            padding:20px;
+            width:120px;
+            border-radius:10px;
+        }
+        .p{
+            text-align: center;
+        }
+
+        .projects{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+               
+        }
+
+        .card{
+            background:white;
+            width:280px;
+            padding:15px;
+            border-radius:10px;
+        }
+
+        .card img{
+            width:75%;
+            border-radius:10px;
+            height :35;
+        }
+
+        .contact{
+            text-align:center;
+            padding:40px;
+        }
+
+        input, textarea{
+            width:250px;
+            padding:10px;
+            margin:10px;
+        }
+
+        footer{
+            background:#0d1028;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
+    </style>
+</head>
+</head>
+<body>
+
+    <nav>
+        <h2>PORTFOLIO</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <img src="https://i.pinimg.com/474x/5c/04/c0/5c04c06b7fe3bd57b06af7616f0e6f33.jpg" width="55" height="55" alt="Profile">
+        <div>
+            <h1>Hi, I'm Mahesh</h1>
+            <h3>Called as Prince</h3>
+            <p>This is to my fans.</p>
+            <button class="btn">About  Me</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>MY SKILLS</h2>
+        <div class="skills">
+            <div class="skill"> <i class="fa-brands fa-html5"></i><br>HTML</div>
+            <div class="skill"><i class="fa-brands fa-html5"></i><br>CSS</div>
+            <div class="skill"><i class="fa-brands fa-html5"></i><br>JavaScript</div>
+            <div class="skill"><i class="fa-brands fa-html5"></i><br>Bootstrap</div>
+            <div class="skill"><i class="fa-brands fa-html5"></i><br>React</div>
+            <div class="skill"><i class="fa-brands fa-html5"></i><br>Git</div>
+        </div>
+    </div>
+    <div class="p">
+     <p>But by luck  became Actorr</p>
+     </div>
+
+
+    <div class="section">
+        <h2>PROJECTS</h2>
+        <div class="projects">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQewAXpVkMkPUCfuEGp66h49Zg6g7GHLW5dBw&s" widht="95" height="85">
+                <h3>Mega project</h3>
+                <p>One of my favt.</p>
+                <button class="btn">View Project</button>
+            </div>
+
+            <div class="card">
+                <img src="https://i.pinimg.com/736x/55/b7/68/55b768520f54c4c95a8362ff77ebee06.jpg" width="95" height="85">
+                <h3>Khaleja</h3> 
+                <p>famous but failedd.</p>
+                <button class="btn">View Project</button>
+            </div>
+
+            <div class="card">
+            <img src="https://m.media-amazon.com/images/M/MV5BMmMzZDJlMzAtYzFhYS00NzFiLWI4MGItOTQxM2E1ZDhhNzk4XkEyXkFqcGc@._V1_.jpg" width="95" height="85">
+                <h3>Srimanthudu</h3>
+                <p>thirigi icheyalii raa  lekapothe lavuu ayipothamm</p>
+                <button class="btn">View Project</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h2>BOOK TICKET TO VARNASII</h2>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email"><br>
+        <textarea placeholder="Your rating"></textarea><br>
+        <button class="btn">Send Message</button>
+    </div>
+
+    <footer>
+        © 2024 Alex Portfolio. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
